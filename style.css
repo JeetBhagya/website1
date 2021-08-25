@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#header{
+    background-image: url(img/background.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin: 0 100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+.text-header{
+    max-width: 350px;
+    margin-top: 100px;
+}
+h1{
+    font-size: 34px;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin: 15px 0;
+}
+.same-btn{
+    margin-top: 10px;
+    padding: 10px 16px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+    line-height: 18px;
+    color: #777;
+}
+.text-header button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.line1{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: #f67c92;
+}
+.line2{
+    width: 60px;
+    height: 1px;
+    display: inline-block;
+    background: #f67c92;
+}
+.line3{
+    width: 40px;
+    height: 1px;
+    display: inline-block;
+    background: #f67c92;
+}
+.lines{
+    line-height: 8px;
+}
+#navbar{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #f67c92;
+    z-index: 2;  
+    transition: .5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#menubtn{
+    width: 50px;
+    position: fixed;
+    cursor: pointer;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    transition: .5s;
+}
+
+/* ----abouit---- */
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left-col{
+    flex-basis: 50%;
+}
+.left-col img{
+    width: 100%;
+}
+.right-col{
+    flex-basis: 50%;
+    text-align: right;
+    max-width: 685px;
+}
+.text-about{
+    /* max-width: 685px; */
+    margin-bottom: 10px;
+}
+.text-about h1{
+    /* max-width: 685px; */
+    margin-top: 10px;
+}
+.text-quote{
+    margin-top: 50px;
+}
+.text-quote h2{
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #f67c92;
+}
+
+/* -----features------ */
+.feature{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.f{
+    max-width: 200px;
+    margin: 100px;
+    text-align: center;
+}
+.f h2{
+    margin-bottom: 10px;
+}
+.trial-free{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+/* .trial-btn{
+    margin-left: 10px;
+} */
+#tb{
+    margin-left: 10px;
+    padding: 10px 13px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+#ad{
+    max-width: 400px;
+    border: 1px solid #f67c92;
+    padding: 20px 50px;
+    margin: 80px auto;
+    display: none;
+    /* visibility: hidden; */
+}
+#ad h1{
+    border-bottom: 1px solid #f67c92;
+    position: absolute;
+    /* padding-bottom: 20px; */
+}
+.actip-details{
+    padding-top: 40px;
+    margin: 30px 0;
+}
+#ad h1{
+    border-bottom: 1px solid #f67c92;
+    position: absolute;
+    /* padding-bottom: 20px; */
+}
+/* ------contact------ */
+
+.contact-form{
+    max-width: 200px;
+    border: 1px solid #f67c92;
+    padding: 20px 50px;
+    margin: 80px auto;
+}
+.contact-form h1{
+    border-bottom: 1px solid #f67c92;
+    position: absolute;
+    /* padding-bottom: 20px; */
+}
+.input-contact{
+    padding-top: 40px;
+    margin: 20px 0;
+}
+.mail-id{
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #f67c92;
+}
+.ph-no{
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #f67c92;    
+}
+.contact-btn{
+    /* margin-left: 10px; */
+    padding: 10px 13px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}    
+.social-icons{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #f67c92; */
+    background-color: #f67c92;
+    padding: 35px 0;
+}
+.social-icons img{
+    margin: 10px;
+}
